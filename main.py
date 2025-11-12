@@ -5,7 +5,7 @@ load_dotenv()
 def ChatBot():
     
     client = OpenAI(
-    #api_key="AIzaSyChnCrgpkZoGmOeiO6lyG2spWfkE10vcT8",
+    
     base_url="https://generativelanguage.googleapis.com/v1beta/")
 
     print("welcome to ChatBot! Type 'exit' to quit.")
